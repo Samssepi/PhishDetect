@@ -157,3 +157,4 @@ This prevents single noisy signals from dominating the verdict.
     }
   ]
 }
+![PhishScope Dashboard](assets/dashboard_demo.png)
