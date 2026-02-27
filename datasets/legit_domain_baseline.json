@@ -1,0 +1,63 @@
+{
+  "high_trust_domains": {
+    "microsoft.com": {
+      "category": "enterprise_vendor",
+      "expected_asn_categories": ["major_cloud_provider", "cdn_shared_infrastructure"],
+      "risk_modifier": -0.25,
+      "reason": "Widely trusted enterprise domain with strong security posture"
+    },
+    "google.com": {
+      "category": "enterprise_vendor",
+      "expected_asn_categories": ["major_cloud_provider", "cdn_shared_infrastructure"],
+      "risk_modifier": -0.25,
+      "reason": "High-reputation domain; spoofing attempts common"
+    },
+    "amazon.com": {
+      "category": "enterprise_vendor",
+      "expected_asn_categories": ["major_cloud_provider"],
+      "risk_modifier": -0.22,
+      "reason": "Legitimate high-volume sender frequently impersonated"
+    },
+    "apple.com": {
+      "category": "enterprise_vendor",
+      "expected_asn_categories": ["major_cloud_provider", "cdn_shared_infrastructure"],
+      "risk_modifier": -0.24,
+      "reason": "Trusted brand with frequent phishing impersonation attempts"
+    },
+    "paypal.com": {
+      "category": "financial_service",
+      "expected_asn_categories": ["major_cloud_provider", "cdn_shared_infrastructure"],
+      "risk_modifier": -0.20,
+      "reason": "Financial platform commonly targeted by credential phishing"
+    }
+  },
+
+  "internal_domain_patterns": {
+    "description": "Patterns used to detect internal spoofing and BEC attempts",
+    "common_enterprise_patterns": [
+      "corp",
+      "internal",
+      "mail",
+      "securemail",
+      "intranet"
+    ],
+    "risk_if_failed_auth": 0.85
+  },
+
+  "display_name_impersonation_keywords": {
+    "risk_weight": 0.75,
+    "keywords": [
+      "ceo",
+      "cfo",
+      "finance",
+      "accounts payable",
+      "billing",
+      "it support",
+      "helpdesk",
+      "administrator",
+      "security team",
+      "hr department"
+    ],
+    "reason": "Common executive and functional roles abused in BEC attacks"
+  }
+}

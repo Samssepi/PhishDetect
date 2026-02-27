@@ -1,0 +1,160 @@
+{
+  "tk": {
+    "risk": 0.92,
+    "category": "high_abuse_freenom",
+    "reason": "Historically high phishing and spam abuse rates in Freenom TLDs",
+    "source_confidence": "high"
+  },
+  "ml": {
+    "risk": 0.90,
+    "category": "high_abuse_freenom",
+    "reason": "Commonly abused low-cost Freenom domain used in phishing campaigns",
+    "source_confidence": "high"
+  },
+  "ga": {
+    "risk": 0.88,
+    "category": "high_abuse_freenom",
+    "reason": "Frequently observed in bulk phishing domain registrations",
+    "source_confidence": "high"
+  },
+  "cf": {
+    "risk": 0.87,
+    "category": "high_abuse_freenom",
+    "reason": "Associated with disposable domain abuse patterns",
+    "source_confidence": "high"
+  },
+  "gq": {
+    "risk": 0.89,
+    "category": "high_abuse_freenom",
+    "reason": "High concentration of malicious registrations historically",
+    "source_confidence": "high"
+  },
+
+  "top": {
+    "risk": 0.86,
+    "category": "cheap_gtld_high_abuse",
+    "reason": "Repeatedly reported in phishing infrastructure studies",
+    "source_confidence": "high"
+  },
+  "xyz": {
+    "risk": 0.72,
+    "category": "cheap_gtld_medium_abuse",
+    "reason": "Low-cost registrations frequently leveraged in scams",
+    "source_confidence": "medium"
+  },
+  "click": {
+    "risk": 0.74,
+    "category": "campaign_style_tld",
+    "reason": "Commonly used in marketing-themed phishing domains",
+    "source_confidence": "medium"
+  },
+  "work": {
+    "risk": 0.70,
+    "category": "cheap_gtld_medium_abuse",
+    "reason": "Observed in opportunistic phishing registrations",
+    "source_confidence": "medium"
+  },
+  "fit": {
+    "risk": 0.68,
+    "category": "cheap_gtld_medium_abuse",
+    "reason": "Appears in disposable phishing domain clusters",
+    "source_confidence": "medium"
+  },
+  "rest": {
+    "risk": 0.66,
+    "category": "cheap_gtld_medium_abuse",
+    "reason": "Seen in bulk domain abuse patterns",
+    "source_confidence": "medium"
+  },
+  "party": {
+    "risk": 0.65,
+    "category": "cheap_gtld_medium_abuse",
+    "reason": "Low registration cost attracts malicious campaigns",
+    "source_confidence": "medium"
+  },
+  "review": {
+    "risk": 0.64,
+    "category": "impersonation_friendly",
+    "reason": "Often used in brand impersonation domains",
+    "source_confidence": "medium"
+  },
+  "country": {
+    "risk": 0.63,
+    "category": "cheap_gtld_medium_abuse",
+    "reason": "Observed in opportunistic phishing kits",
+    "source_confidence": "medium"
+  },
+  "stream": {
+    "risk": 0.62,
+    "category": "campaign_style_tld",
+    "reason": "Used in lure-based phishing pages",
+    "source_confidence": "medium"
+  },
+
+  "download": {
+    "risk": 0.66,
+    "category": "malware_lure_tld",
+    "reason": "Common in malware delivery themed domains",
+    "source_confidence": "medium"
+  },
+  "loan": {
+    "risk": 0.69,
+    "category": "financial_lure_tld",
+    "reason": "Financial themed phishing frequently observed",
+    "source_confidence": "medium"
+  },
+  "win": {
+    "risk": 0.71,
+    "category": "lottery_lure_tld",
+    "reason": "Associated with prize and scam campaigns",
+    "source_confidence": "medium"
+  },
+  "date": {
+    "risk": 0.67,
+    "category": "social_lure_tld",
+    "reason": "Used in social engineering themed scams",
+    "source_confidence": "medium"
+  },
+  "men": {
+    "risk": 0.61,
+    "category": "spam_heavy_gtld",
+    "reason": "Observed in bulk spam domain registrations",
+    "source_confidence": "low_medium"
+  },
+  "buzz": {
+    "risk": 0.62,
+    "category": "campaign_style_tld",
+    "reason": "Appears in promotional phishing campaigns",
+    "source_confidence": "low_medium"
+  },
+  "pw": {
+    "risk": 0.75,
+    "category": "cheap_ccTLD_abuse",
+    "reason": "Historically associated with spam infrastructure",
+    "source_confidence": "medium"
+  },
+  "cc": {
+    "risk": 0.65,
+    "category": "cheap_ccTLD_abuse",
+    "reason": "Seen in opportunistic phishing registrations",
+    "source_confidence": "medium"
+  },
+  "ws": {
+    "risk": 0.60,
+    "category": "cheap_ccTLD_abuse",
+    "reason": "Used in disposable domain campaigns",
+    "source_confidence": "low_medium"
+  },
+  "su": {
+    "risk": 0.63,
+    "category": "legacy_ccTLD_risk",
+    "reason": "Legacy domain space with observed abuse pockets",
+    "source_confidence": "low_medium"
+  },
+  "icu": {
+    "risk": 0.68,
+    "category": "cheap_gtld_medium_abuse",
+    "reason": "Low-cost domain frequently seen in phishing kits",
+    "source_confidence": "medium"
+  }
+}

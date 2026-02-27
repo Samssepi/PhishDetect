@@ -1,0 +1,52 @@
+{
+  "a": {
+    "risk_weight": 0.85,
+    "description": "Common Cyrillic and accented variants used in homograph attacks",
+    "variants": ["à","á","â","ã","ä","å","ɑ","а"]
+  },
+  "c": {
+    "risk_weight": 0.80,
+    "description": "Visually similar Cyrillic character often used in spoofed domains",
+    "variants": ["с","ć","č"]
+  },
+  "e": {
+    "risk_weight": 0.88,
+    "description": "Highly abused homoglyph in credential phishing domains",
+    "variants": ["è","é","ê","ë","е","ẹ"]
+  },
+  "i": {
+    "risk_weight": 0.82,
+    "description": "Common lookalike substitutions including Cyrillic",
+    "variants": ["ì","í","î","ï","і","ı"]
+  },
+  "o": {
+    "risk_weight": 0.90,
+    "description": "Extremely common in domain spoofing and IDN attacks",
+    "variants": ["ò","ó","ô","õ","ö","ο","о","0"]
+  },
+  "p": {
+    "risk_weight": 0.84,
+    "description": "Cyrillic substitution frequently seen in brand impersonation",
+    "variants": ["р"]
+  },
+  "s": {
+    "risk_weight": 0.75,
+    "description": "Common visual substitution in phishing domains",
+    "variants": ["ѕ","ś","š"]
+  },
+  "x": {
+    "risk_weight": 0.70,
+    "description": "Occasionally used homoglyph in deceptive domains",
+    "variants": ["х"]
+  },
+  "y": {
+    "risk_weight": 0.78,
+    "description": "Cyrillic substitution seen in credential harvesting domains",
+    "variants": ["у","ý","ÿ"]
+  },
+  "b": {
+    "risk_weight": 0.72,
+    "description": "Visual similarity exploited in some spoofing cases",
+    "variants": ["Ь","Ƅ"]
+  }
+}

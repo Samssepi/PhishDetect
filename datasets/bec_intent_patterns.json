@@ -1,0 +1,109 @@
+{
+  "financial_urgency": {
+    "risk_weight": 0.85,
+    "description": "Language indicating urgent financial transfer requests",
+    "patterns": [
+      "urgent wire transfer",
+      "process payment immediately",
+      "send the funds today",
+      "complete the transfer today",
+      "payment required urgently",
+      "initiate bank transfer",
+      "vendor payment update",
+      "confirm the remittance",
+      "release the payment now",
+      "handle this payment today"
+    ],
+    "source_confidence": "high"
+  },
+
+  "credential_harvest": {
+    "risk_weight": 0.80,
+    "description": "Language attempting to trick users into revealing credentials",
+    "patterns": [
+      "verify your account",
+      "login to continue",
+      "confirm your password",
+      "security update required",
+      "your mailbox is full",
+      "password expires today",
+      "unusual login attempt",
+      "click below to authenticate",
+      "validate your account now",
+      "reconfirm your credentials"
+    ],
+    "source_confidence": "high"
+  },
+
+  "authority_abuse": {
+    "risk_weight": 0.88,
+    "description": "Impersonation of executives or authority figures",
+    "patterns": [
+      "as discussed with the ceo",
+      "requested by the chairman",
+      "executive request",
+      "from the finance director",
+      "on behalf of management",
+      "per our leadership discussion",
+      "the board has approved",
+      "this is a confidential executive task",
+      "ceo needs this handled",
+      "management requires this today"
+    ],
+    "source_confidence": "high"
+  },
+
+  "urgency_coercion": {
+    "risk_weight": 0.75,
+    "description": "Pressure tactics designed to rush the recipient",
+    "patterns": [
+      "urgent response needed",
+      "reply immediately",
+      "action required today",
+      "time sensitive request",
+      "do not delay",
+      "handle this urgently",
+      "as soon as possible",
+      "within the hour",
+      "immediate attention required",
+      "this cannot wait"
+    ],
+    "source_confidence": "medium_high"
+  },
+
+  "payment_workflow_manipulation": {
+    "risk_weight": 0.90,
+    "description": "Attempts to alter normal payment or vendor workflows",
+    "patterns": [
+      "updated banking details",
+      "change the beneficiary account",
+      "new payment instructions",
+      "update vendor bank information",
+      "use the new account",
+      "bank details have changed",
+      "future payments should go to",
+      "modify the payment record",
+      "switch the payment account",
+      "please update the wire details"
+    ],
+    "source_confidence": "high"
+  },
+
+  "confidentiality_pressure": {
+    "risk_weight": 0.70,
+    "description": "Requests emphasizing secrecy to bypass verification",
+    "patterns": [
+      "keep this confidential",
+      "do not inform others",
+      "strictly between us",
+      "private matter",
+      "handle discreetly",
+      "confidential request",
+      "not to be shared",
+      "internal use only",
+      "sensitive transaction",
+      "quietly process this"
+    ],
+    "source_confidence": "medium_high"
+  }
+}

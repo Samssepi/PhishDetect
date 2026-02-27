@@ -1,0 +1,72 @@
+{
+  "AS14061": {
+    "risk": 0.78,
+    "provider": "DigitalOcean",
+    "category": "cheap_vps_high_abuse",
+    "reason": "Frequently observed in opportunistic phishing infrastructure due to low-cost VPS availability",
+    "source_confidence": "medium_high"
+  },
+  "AS20473": {
+    "risk": 0.74,
+    "provider": "Choopa / Vultr",
+    "category": "cheap_vps_high_abuse",
+    "reason": "Common in disposable phishing hosting setups and rapid domain turnover",
+    "source_confidence": "medium_high"
+  },
+  "AS13335": {
+    "risk": 0.32,
+    "provider": "Cloudflare",
+    "category": "cdn_shared_infrastructure",
+    "reason": "Shared CDN frequently seen in both benign and malicious infrastructure; requires correlation",
+    "source_confidence": "high"
+  },
+  "AS16509": {
+    "risk": 0.28,
+    "provider": "Amazon AWS",
+    "category": "major_cloud_provider",
+    "reason": "Large legitimate cloud provider; abuse possible but high baseline legitimacy",
+    "source_confidence": "high"
+  },
+  "AS14618": {
+    "risk": 0.30,
+    "provider": "Amazon AWS",
+    "category": "major_cloud_provider",
+    "reason": "Widely used enterprise cloud; risk only meaningful when correlated with other signals",
+    "source_confidence": "high"
+  },
+  "AS8075": {
+    "risk": 0.25,
+    "provider": "Microsoft Azure",
+    "category": "major_cloud_provider",
+    "reason": "Enterprise cloud infrastructure with mixed benign and malicious usage",
+    "source_confidence": "high"
+  },
+  "AS15169": {
+    "risk": 0.24,
+    "provider": "Google Cloud",
+    "category": "major_cloud_provider",
+    "reason": "High-reputation cloud provider; flagged only in multi-signal correlation",
+    "source_confidence": "high"
+  },
+  "AS16276": {
+    "risk": 0.55,
+    "provider": "OVH",
+    "category": "budget_hosting_mixed_abuse",
+    "reason": "Budget hosting provider occasionally appearing in abuse reports",
+    "source_confidence": "medium"
+  },
+  "AS24940": {
+    "risk": 0.60,
+    "provider": "Hetzner",
+    "category": "budget_hosting_mixed_abuse",
+    "reason": "Observed in opportunistic phishing campaigns alongside legitimate use",
+    "source_confidence": "medium"
+  },
+  "AS9009": {
+    "risk": 0.58,
+    "provider": "M247",
+    "category": "bulletproof_tolerant_patterns",
+    "reason": "Historically associated with higher abuse tolerance in some threat reports",
+    "source_confidence": "medium"
+  }
+}
