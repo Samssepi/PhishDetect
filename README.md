@@ -46,7 +46,7 @@ Instead, it:
 - Treats AI as a supporting signal (not the final verdict)
 
 ---
-
+```
 ## 🏗️ System Architecture
 Email Input
 ↓
@@ -61,40 +61,39 @@ Detection Modules
 Correlation & Scoring Engine
 ↓
 Risk Intelligence Output
+```
 
 ---
 
 ## 📂 Project Structure
 
+```
 PhishDetect/
-│
+
 ├── app.py
 ├── requirements.txt
 ├── README.md
-│
+
 ├── core/
-│ ├── orchestrator.py
-│ └── scoring_engine.py
-│
+│   ├── orchestrator.py
+│   └── scoring_engine.py
+
 ├── modules/
-│ ├── authentication.py
-│ ├── url_analysis.py
-│ ├── intent.py
-│ └── infrastructure.py
-│
+│   ├── authentication.py
+│   ├── url_analysis.py
+│   ├── intent.py
+│   └── infrastructure.py
+
 ├── datasets/
-│ ├── bec_intent_patterns.json
-│ ├── suspicious_tlds.json
-│ ├── risky_asn.json
-│ ├── homoglyph_map.json
-│ └── legit_domain_baseline.json
-│
-└── frontend/
-├── index.html
-└── app.js
+│   ├── bec_intent_patterns.json
+│   ├── suspicious_tlds.json
+│   ├── risky_asn.json
+│   ├── homograph_map.json
+│   └── legit_domain_baseline.json
 
-
----
+└── assets/
+    └── dashboard_demo.png
+```
 
 ## 🔍 Detection Modules
 
