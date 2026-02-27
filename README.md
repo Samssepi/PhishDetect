@@ -136,8 +136,11 @@ Key factors:
 This prevents single noisy signals from dominating the verdict.
 
 ---
+## 📊 Dashboard Visualization
+![PhishScope Dashboard](assets/dashboard_demo.png)
 
 ## 🧪 Example Output
+
 
 ```json
 {
@@ -157,4 +160,5 @@ This prevents single noisy signals from dominating the verdict.
     }
   ]
 }
-![PhishScope Dashboard](assets/dashboard_demo.png)
+
+
